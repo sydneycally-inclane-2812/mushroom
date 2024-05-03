@@ -1,4 +1,5 @@
 linters: linters_with_defaults(
     line_length_linter(1000),
-    commented_code_linter = NULL
+    commented_code_linter = NULL,
+    indent_style_linter = NULL,
   )
